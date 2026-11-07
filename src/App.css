@@ -1,0 +1,77 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.generator-card {
+  width: 420px;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(180, 100, 40, 0.12);
+}
+
+.app-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.generator-card h1 {
+  color: #e47b35;
+  font-size: 27px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.number-display {
+  height: 130px;
+  background-color: #fff3e6;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.number-display h2 {
+  color: #e47b35;
+  font-size: 65px;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #e47b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c96324;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 450px) {
+  .generator-card {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
